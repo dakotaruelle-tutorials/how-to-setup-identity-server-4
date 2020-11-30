@@ -1,0 +1,9 @@
+@model List<WeatherForecast>
+
+@foreach (var weatherForecast in Model)
+{
+  <div>
+    <span>@weatherForecast.Date: </span>
+    <span>@weatherForecast.Summary</span>
+  </div>
+}
